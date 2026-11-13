@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,17 +6,8 @@
   <title>Ganta Harshitha | Software Engineer Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <style>
-    body { font-family: 'Inter', sans-serif; }
-    html { scroll-behavior: smooth; }
-    .project-card { transition: all 0.3s ease; }
-    .project-card:hover {
-      transform: translateY(-6px);
-      border-color: #3b82f6;
-    }
-  </style>
+  <style>body{font-family:'Inter',sans-serif}</style>
 </head>
-
 <body class="bg-slate-950 text-slate-200">
 
 <!-- NAVBAR -->
@@ -26,7 +16,6 @@
     <span class="font-semibold text-blue-400">Harshitha</span>
     <div class="hidden md:flex gap-6 text-sm">
       <a href="#about" class="hover:text-blue-400">About</a>
-      <a href="#education" class="hover:text-blue-400">Education</a>
       <a href="#projects" class="hover:text-blue-400">Projects</a>
       <a href="#skills" class="hover:text-blue-400">Skills</a>
       <a href="#experience" class="hover:text-blue-400">Experience</a>
@@ -39,39 +28,17 @@
 <!-- HERO -->
 <section class="min-h-screen flex items-center">
   <div class="max-w-7xl mx-auto px-6 text-center">
-    <p class="text-blue-400 font-medium mb-4">WELCOME TO MY PORTFOLIO</p>
-
-    <h1 class="text-4xl md:text-6xl font-bold mb-6">
-      Ganta Harshitha
-    </h1>
-
-    <p class="text-xl text-blue-400 mb-4">
-      Computer Science Student • SR University
+    <h1 class="text-4xl md:text-6xl font-bold mb-6">Ganta Harshitha</h1>
+    <p class="text-xl text-blue-400 mb-4">Computer Science Student • SR University</p>
+    <p class="max-w-3xl mx-auto text-slate-400 mb-8">
+      Passionate Computer Science Engineering student focused on building scalable applications,
+      solving real-world problems, and continuously improving skills in full-stack development,
+      cloud computing, and modern technologies.
     </p>
-
-    <p class="max-w-3xl mx-auto text-slate-400 leading-8 mb-8">
-      Passionate Computer Science Engineering student with an interest in
-      software development, full-stack technologies, artificial intelligence,
-      and problem-solving. Enthusiastic about creating user-friendly
-      applications, exploring innovative technologies, and developing
-      practical solutions to real-world challenges.
-    </p>
-
     <div class="flex justify-center gap-4 flex-wrap">
-      <a href="https://www.linkedin.com/in/ganta-harshitha-22979b2a9/" target="_blank"
-         class="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
-        LinkedIn
-      </a>
-
-      <a href="https://github.com/HarshithaGanta" target="_blank"
-         class="px-6 py-3 border border-blue-500 rounded-lg hover:bg-blue-500/10">
-        GitHub
-      </a>
-
-      <a href="https://leetcode.com/u/harshithaganta/" target="_blank"
-         class="px-6 py-3 border border-slate-700 rounded-lg hover:bg-slate-800">
-        LeetCode
-      </a>
+      <a href="https://www.linkedin.com/in/ganta-harshitha-22979b2a9/" target="_blank" class="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600">LinkedIn</a>
+      <a href="https://github.com/HarshithaGanta" target="_blank" class="px-6 py-3 border border-blue-500 rounded-lg hover:bg-blue-500/10">GitHub</a>
+      <a href="https://leetcode.com/u/harshithaganta/" target="_blank" class="px-6 py-3 border border-slate-700 rounded-lg hover:bg-slate-800">LeetCode</a>
     </div>
   </div>
 </section>
@@ -79,172 +46,54 @@
 <!-- ABOUT -->
 <section id="about" class="max-w-7xl mx-auto px-6 py-20">
   <h2 class="text-3xl font-semibold mb-6">About Me</h2>
-
-  <p class="text-slate-400 leading-8 mb-5">
-    I am currently pursuing a Bachelor of Technology in Computer Science
-    and Engineering at SR University (2023–2027). I have a strong interest
-    in programming, software development, web technologies, and emerging
-    technologies such as Artificial Intelligence and Machine Learning.
+  <p class="text-slate-400 leading-relaxed">
+    I am currently pursuing a Bachelor of Technology in Computer Science and Engineering (2023–2027).
+    My academic focus includes Data Structures, Algorithms, Operating Systems, and Web Development.
+    I actively work on projects and continuously improve my problem-solving and development skills.
   </p>
-
-  <p class="text-slate-400 leading-8 mb-5">
-    My academic learning includes Data Structures and Algorithms,
-    Object-Oriented Programming, Database Management Systems,
-    Operating Systems, Computer Networks, and Web Development.
-    I enjoy applying these concepts while building projects and
-    solving programming challenges.
-  </p>
-
-  <p class="text-slate-400 leading-8">
-    I am a continuous learner who enjoys exploring new tools,
-    improving technical abilities, collaborating with others,
-    and transforming ideas into practical applications.
-    My goal is to grow as a software developer and contribute
-    to meaningful technology solutions.
-  </p>
-</section>
-
-<!-- EDUCATION -->
-<section id="education" class="bg-slate-900 py-20">
-  <div class="max-w-7xl mx-auto px-6">
-    <h2 class="text-3xl font-semibold mb-10">Education</h2>
-
-    <div class="p-6 rounded-xl border border-slate-800">
-      <p class="text-blue-400 text-sm mb-2">2023 – 2027</p>
-      <h3 class="text-xl font-semibold mb-2">
-        Bachelor of Technology – Computer Science and Engineering
-      </h3>
-      <p class="text-slate-400">SR University, Telangana</p>
-      <p class="text-slate-400 mt-3 leading-7">
-        Pursuing undergraduate studies with a focus on programming,
-        algorithms, database systems, software engineering,
-        and modern application development.
-      </p>
-    </div>
-  </div>
 </section>
 
 <!-- PROJECTS -->
-<section id="projects" class="bg-slate-950 py-20">
+<section id="projects" class="bg-slate-900 py-20">
   <div class="max-w-7xl mx-auto px-6">
-
-    <h2 class="text-3xl font-semibold mb-4">Projects</h2>
-    <p class="text-slate-400 mb-10">
-      A collection of academic and personal projects demonstrating
-      my interest in application development, problem-solving,
-      healthcare technology, and creative game design.
-    </p>
-
+    <h2 class="text-3xl font-semibold mb-10">Projects</h2>
     <div class="grid md:grid-cols-2 gap-8">
 
-      <!-- PROJECT 1 -->
-      <div class="project-card p-6 rounded-xl border border-slate-800">
-        <h3 class="text-xl font-semibold mb-2">
-          Odisha Health Assistant
-        </h3>
-
-        <p class="text-blue-400 text-sm mb-3">
-          HTML • CSS • JavaScript • Healthcare Technology
-        </p>
-
-        <p class="text-slate-400 text-sm leading-7 mb-4">
-          Developed a multilingual healthcare assistant prototype
-          designed to provide basic health information, symptom-related
-          guidance, and preventive healthcare awareness through
-          an interactive web interface.
-        </p>
-
+      <div class="p-6 rounded-xl border border-slate-800 hover:border-blue-500/50 transition">
+        <h3 class="text-xl font-semibold mb-2">Library Management System</h3>
+        <p class="text-blue-400 text-sm mb-3">Java • SQL</p>
         <ul class="text-slate-400 text-sm space-y-2">
-          <li>• Supports English, Odia, and Hindi languages.</li>
-          <li>• Provides an interactive AI-style symptom chatbot.</li>
-          <li>• Includes symptom checking and condition-related guidance.</li>
-          <li>• Provides preventive health tips and awareness information.</li>
-          <li>• Includes vaccination schedules and reminder features.</li>
-          <li>• Offers an appointment booking interface.</li>
-        </ul>
-
-        <a href="https://harshithaganta.github.io/Healthcare/health_care_chatbot.html"
-           target="_blank"
-           class="inline-block text-blue-400 text-sm mt-5 hover:underline">
-          View Project →
-        </a>
-      </div>
-
-      <!-- PROJECT 2 -->
-      <div class="project-card p-6 rounded-xl border border-slate-800">
-        <h3 class="text-xl font-semibold mb-2">
-          Library Management System
-        </h3>
-
-        <p class="text-blue-400 text-sm mb-3">
-          Java • SQL • Database Management
-        </p>
-
-        <p class="text-slate-400 text-sm leading-7 mb-4">
-          Developed a library management system to simplify
-          the organization and maintenance of library records.
-          The application focuses on managing book information
-          and improving the efficiency of library operations.
-        </p>
-
-        <ul class="text-slate-400 text-sm space-y-2">
-          <li>• Maintains book and library records.</li>
-          <li>• Implements Create, Read, Update, and Delete operations.</li>
-          <li>• Uses SQL for storing and retrieving information.</li>
-          <li>• Organizes library data for easier management.</li>
-          <li>• Demonstrates database connectivity and programming concepts.</li>
+          <li>• Developed system for managing books and records</li>
+          <li>• Implemented CRUD operations with database</li>
+          <li>• Improved tracking and automation</li>
         </ul>
       </div>
 
-      <!-- PROJECT 3 -->
-      <div class="project-card p-6 rounded-xl border border-slate-800">
-        <h3 class="text-xl font-semibold mb-2">
-          Weather Application
-        </h3>
-
-        <p class="text-blue-400 text-sm mb-3">
-          HTML • CSS • JavaScript • Weather API
-        </p>
-
-        <p class="text-slate-400 text-sm leading-7 mb-4">
-          Created a responsive weather application that retrieves
-          weather information using an external API and displays
-          dynamic weather details through a user-friendly interface.
-        </p>
-
+      <div class="p-6 rounded-xl border border-slate-800 hover:border-blue-500/50 transition">
+        <h3 class="text-xl font-semibold mb-2">Weather Application</h3>
+        <p class="text-blue-400 text-sm mb-3">HTML • CSS • JavaScript</p>
         <ul class="text-slate-400 text-sm space-y-2">
-          <li>• Retrieves current weather information using APIs.</li>
-          <li>• Displays weather details based on user input.</li>
-          <li>• Uses JavaScript for dynamic content updates.</li>
-          <li>• Provides a responsive and interactive interface.</li>
-          <li>• Demonstrates API integration and asynchronous programming.</li>
+          <li>• Built real-time weather app using APIs</li>
+          <li>• Responsive UI design</li>
+          <li>• Dynamic data updates</li>
         </ul>
       </div>
 
-      <!-- PROJECT 4 -->
-      <div class="project-card p-6 rounded-xl border border-purple-500/40">
-        <h3 class="text-xl font-semibold mb-2">
-          Endless Runner – Fairy Tale Flight
-        </h3>
-
-        <p class="text-purple-400 text-sm mb-3">
-          Game Design • Endless Runner • Game Development
-        </p>
-
+      <div class="p-6 rounded-xl border border-purple-500/40 bg-purple-500/5 hover:border-purple-400 transition">
+        <div class="flex items-start justify-between gap-4 mb-2">
+          <h3 class="text-xl font-semibold">Fairy Tale Flight</h3>
+          <span class="shrink-0 rounded-full bg-purple-500/15 px-3 py-1 text-xs font-medium text-purple-300">Endless Runner</span>
+        </div>
+        <p class="text-purple-300 text-sm mb-3">Game Design • Fantasy Adventure • Interactive Gameplay</p>
         <p class="text-slate-400 text-sm leading-7 mb-4">
-          Designed a creative endless runner game concept inspired
-          by a magical fairy tale flying adventure. The project
-          focuses on an engaging fantasy environment, continuous
-          gameplay, and interactive challenges.
+          Fairy Tale Flight is a fantasy-themed endless runner experience that invites players to guide a flying character through an enchanted world. The gameplay centers on responsive movement, obstacle avoidance, score progression, and a visually immersive fairy-tale atmosphere.
         </p>
-
         <ul class="text-slate-400 text-sm space-y-2">
-          <li>• Developed a magical fairy tale game concept.</li>
-          <li>• Designed a fantasy-inspired flying environment.</li>
-          <li>• Planned obstacles and gameplay challenges.</li>
-          <li>• Focused on continuous movement and obstacle avoidance.</li>
-          <li>• Emphasized player engagement and immersive game design.</li>
+          <li>• Continuous flight gameplay with increasing challenge.</li>
+          <li>• Fantasy-inspired environments, obstacles, and visual storytelling.</li>
+          <li>• Focus on intuitive controls, replayability, and player engagement.</li>
         </ul>
+        <p class="mt-5 text-xs leading-5 text-slate-500">Featured as a game concept and gameplay study; any third-party game assets or references remain the property of their respective owners.</p>
       </div>
 
     </div>
@@ -253,218 +102,48 @@
 
 <!-- SKILLS -->
 <section id="skills" class="max-w-7xl mx-auto px-6 py-20">
-
-  <h2 class="text-3xl font-semibold mb-4">Technical Skills</h2>
-
-  <p class="text-slate-400 mb-10">
-    Technologies and tools I have explored through academic learning,
-    programming practice, and project development.
-  </p>
-
-  <div class="grid md:grid-cols-4 gap-8">
-
-    <div>
-      <h4 class="text-blue-400 font-semibold text-lg mb-3">
-        Programming Languages
-      </h4>
-      <p class="text-slate-400 leading-8">
-        Python, Java, JavaScript
-      </p>
-    </div>
-
-    <div>
-      <h4 class="text-blue-400 font-semibold text-lg mb-3">
-        Web Technologies
-      </h4>
-      <p class="text-slate-400 leading-8">
-        HTML5, CSS3, Tailwind CSS, React, Node.js
-      </p>
-    </div>
-
-    <div>
-      <h4 class="text-blue-400 font-semibold text-lg mb-3">
-        Database
-      </h4>
-      <p class="text-slate-400 leading-8">
-        SQL, Oracle SQL, MongoDB
-      </p>
-    </div>
-
-    <div>
-      <h4 class="text-blue-400 font-semibold text-lg mb-3">
-        Development Tools
-      </h4>
-      <p class="text-slate-400 leading-8">
-        Git, GitHub, VS Code
-      </p>
-    </div>
-
+  <h2 class="text-3xl font-semibold mb-10">Technical Skills</h2>
+  <div class="grid md:grid-cols-4 gap-6">
+    <div><h4 class="text-blue-400 font-medium mb-2">Languages</h4><p class="text-slate-400">Python, Java, JavaScript</p></div>
+    <div><h4 class="text-blue-400 font-medium mb-2">Web</h4><p class="text-slate-400">HTML, CSS, React, Node.js</p></div>
+    <div><h4 class="text-blue-400 font-medium mb-2">Database</h4><p class="text-slate-400">MongoDB, SQL</p></div>
+    <div><h4 class="text-blue-400 font-medium mb-2">Tools</h4><p class="text-slate-400">Git, GitHub, VS Code</p></div>
   </div>
-
-  <div class="mt-12">
-    <h3 class="text-xl font-semibold text-blue-400 mb-4">
-      Core Computer Science Subjects
-    </h3>
-
-    <div class="flex flex-wrap gap-3 text-sm">
-      <span class="bg-slate-800 px-4 py-2 rounded-lg">Data Structures</span>
-      <span class="bg-slate-800 px-4 py-2 rounded-lg">Algorithms</span>
-      <span class="bg-slate-800 px-4 py-2 rounded-lg">DBMS</span>
-      <span class="bg-slate-800 px-4 py-2 rounded-lg">Operating Systems</span>
-      <span class="bg-slate-800 px-4 py-2 rounded-lg">Computer Networks</span>
-      <span class="bg-slate-800 px-4 py-2 rounded-lg">OOP</span>
-    </div>
-  </div>
-
 </section>
 
 <!-- EXPERIENCE -->
 <section id="experience" class="bg-slate-900 py-20">
   <div class="max-w-7xl mx-auto px-6">
-
-    <h2 class="text-3xl font-semibold mb-4">Internships</h2>
-
-    <p class="text-slate-400 mb-10">
-      Internship experiences that helped me explore emerging
-      technologies and strengthen my practical technical knowledge.
-    </p>
-
-    <div class="space-y-8">
-
-      <div class="p-6 rounded-xl border border-slate-800">
-        <h3 class="text-xl font-semibold text-white mb-2">
-          AI/ML Internship – AICTE
-        </h3>
-
-        <p class="text-blue-400 text-sm mb-3">
-          Artificial Intelligence and Machine Learning
-        </p>
-
-        <p class="text-slate-400 leading-7">
-          Gained exposure to Artificial Intelligence and Machine
-          Learning concepts, including their applications in
-          developing intelligent systems and solving practical problems.
-        </p>
-      </div>
-
-      <div class="p-6 rounded-xl border border-slate-800">
-        <h3 class="text-xl font-semibold text-white mb-2">
-          Android Developer Internship – AICTE
-        </h3>
-
-        <p class="text-blue-400 text-sm mb-3">
-          Android Application Development
-        </p>
-
-        <p class="text-slate-400 leading-7">
-          Explored Android development concepts and mobile
-          application development workflows, with a focus on
-          application structure, user interfaces, and functionality.
-        </p>
-      </div>
-
-    </div>
+    <h2 class="text-3xl font-semibold mb-10">Internships</h2>
+    <ul class="space-y-6 text-slate-400">
+      <li><strong class="text-white">AI/ML Internship – AICTE</strong></li>
+      <li><strong class="text-white">Android Developer Internship – AICTE</strong></li>
+    </ul>
   </div>
 </section>
 
 <!-- CERTIFICATIONS -->
 <section id="certifications" class="max-w-7xl mx-auto px-6 py-20">
-
-  <h2 class="text-3xl font-semibold mb-4">Certifications</h2>
-
-  <p class="text-slate-400 mb-10">
-    Certifications representing my learning and interest
-    in networking, artificial intelligence, and programming.
-  </p>
-
-  <div class="grid md:grid-cols-3 gap-6">
-
-    <div class="p-6 rounded-xl border border-slate-800 hover:border-blue-500/50 transition">
-      <h3 class="text-lg font-semibold mb-3">
-        CCNA – Introduction to Networks
-      </h3>
-      <p class="text-slate-400 text-sm leading-7">
-        Learned networking fundamentals, network communication,
-        IP addressing, and basic networking concepts.
-      </p>
-    </div>
-
-    <div class="p-6 rounded-xl border border-slate-800 hover:border-blue-500/50 transition">
-      <h3 class="text-lg font-semibold mb-3">
-        Artificial Intelligence & Machine Learning
-      </h3>
-      <p class="text-slate-400 text-sm leading-7">
-        Explored fundamental AI and machine learning concepts,
-        intelligent systems, and practical technology applications.
-      </p>
-    </div>
-
-    <div class="p-6 rounded-xl border border-slate-800 hover:border-blue-500/50 transition">
-      <h3 class="text-lg font-semibold mb-3">
-        Data Structures using Java
-      </h3>
-      <p class="text-slate-400 text-sm leading-7">
-        Studied fundamental data structures, programming logic,
-        and problem-solving techniques using Java.
-      </p>
-    </div>
-
-  </div>
+  <h2 class="text-3xl font-semibold mb-10">Certifications</h2>
+  <ul class="space-y-4 text-slate-400">
+    <li>• CCNA – Introduction to Networks</li>
+    <li>• Artificial Intelligence & Machine Learning</li>
+    <li>• Data Structures using Java</li>
+  </ul>
 </section>
 
 <!-- CONTACT -->
 <section id="contact" class="bg-slate-900 py-20">
   <div class="max-w-7xl mx-auto px-6">
-
-    <h2 class="text-3xl font-semibold mb-6">Contact Me</h2>
-
-    <p class="text-slate-400 mb-8">
-      I am open to connecting with professionals, exploring
-      internship opportunities, collaborating on projects,
-      and learning about new technologies.
-      Feel free to reach out.
-    </p>
-
-    <p class="text-slate-400 mb-4">
-      📧
-      <a href="mailto:harshithagantaa@gmail.com"
-         class="hover:text-blue-400">
-        harshithagantaa@gmail.com
-      </a>
-    </p>
-
-    <p class="text-slate-400 mb-4">
-      📞 9030682313
-    </p>
-
-    <p class="text-slate-400 mb-4">
-      📍 Telangana, India
-    </p>
-
-    <p class="text-slate-400">
-      GitHub:
-      <a href="https://github.com/HarshithaGanta"
-         target="_blank" class="text-blue-400 hover:underline">
-        github.com/HarshithaGanta
-      </a>
-    </p>
-
+    <h2 class="text-3xl font-semibold mb-6">Contact</h2>
+    <p class="text-slate-400 mb-2">📧 <a href="mailto:harshithagantaa@gmail.com" class="hover:text-blue-400">harshithagantaa@gmail.com</a></p>
+    <p class="text-slate-400 mb-2">📞 9030682313</p>
+    <p class="text-slate-400">📍 Telangana, India</p>
   </div>
 </section>
 
-<!-- FOOTER -->
-<footer class="text-center py-8 text-slate-500 text-sm border-t border-slate-800">
-  <p class="text-blue-400 font-semibold mb-2">
-    Ganta Harshitha
-  </p>
-
-  <p>
-    Computer Science Engineering Student | Aspiring Software Developer
-  </p>
-
-  <p class="mt-3">
-    © 2026 Ganta Harshitha. All Rights Reserved.
-  </p>
+<footer class="text-center py-6 text-slate-500 text-sm border-t border-slate-800">
+  © 2026 Ganta Harshitha
 </footer>
 
 </body>
